@@ -1,17 +1,54 @@
 using UnityEngine;
 using FMOD.Studio;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 namespace Interactables
 {
+    [ExecuteAlways, RequireComponent(typeof( Button)), RequireComponent(typeof(Image)), RequireComponent(typeof(Outline)), RequireComponent(typeof(EventTrigger))]
     public abstract class SonoricInteraction : InteractableObject
     {
         protected EventInstance interactionSound;
         protected abstract string eventName { get; }
 
+        [SerializeField] protected Sprite sprite;
+        [SerializeField] protected Outline outline;
+        [SerializeField] protected EventTrigger eventTrigger;
+        EventTrigger.Entry entry;
+        EventTrigger.Entry exit;
+
         public override void Interact()=>
             interactionSound.start();
 
-        protected virtual void Start()=>       
+        protected virtual void Start()
+        {
+            GetComponent<Button>().onClick.AddListener(Interact);
+
+            outline = GetComponent<Outline>();
+            outline.effectColor = Color.white;
+            outline.effectDistance = new Vector2(3f, 3f);
+            outline.enabled = false;
+
+            eventTrigger = GetComponent<EventTrigger>();
+
+            if (eventTrigger.triggers.Count !=2)
+            {
+                entry = new EventTrigger.Entry();
+                entry.eventID = EventTriggerType.PointerEnter;
+                entry.callback.AddListener((data) => { ShowOutline(true); });
+                eventTrigger.triggers.Add(entry);
+
+                exit = new EventTrigger.Entry();
+                exit.eventID = EventTriggerType.PointerExit;
+                exit.callback.AddListener((data) =>{ ShowOutline(false); });
+                eventTrigger.triggers.Add(exit); 
+            }
+
+            if (Application.isPlaying)
             interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
+        }      
+
+        protected virtual void ShowOutline( bool show)=>
+            outline.enabled = show;
     }
 }
