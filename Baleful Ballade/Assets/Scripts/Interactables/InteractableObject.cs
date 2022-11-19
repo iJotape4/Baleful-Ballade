@@ -6,6 +6,7 @@ namespace Interactables
 {
     public abstract class InteractableObject : MonoBehaviour, IClickable
     {
+        protected bool activeInteraction;
         public void Click()=> 
             Interact();
     

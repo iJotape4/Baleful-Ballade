@@ -1,9 +1,7 @@
 {
-    "name": "Interactables",
+    "name": "LevelValidator",
     "rootNamespace": "",
     "references": [
-        "GUID:3a825dadb83a3724d88d013ab1734a64",
-        "GUID:0c752da273b17c547ae705acf0f2adf2",
         "GUID:548b4dc0ee39eef4f9252f061e93b955"
     ],
     "includePlatforms": [],

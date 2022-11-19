@@ -17,8 +17,13 @@ namespace Interactables
         EventTrigger.Entry entry;
         EventTrigger.Entry exit;
 
-        public override void Interact()=>
-            interactionSound.start();
+        [SerializeField] public LevelValidatorScriptableObject levelValidatorScriptableObject;
+
+        public override void Interact()
+        {
+            levelValidatorScriptableObject.touchItemAction?.Invoke(eventName);
+           // interactionSound.start();
+        }
 
         protected virtual void Start()
         {
