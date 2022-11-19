@@ -1,6 +1,26 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8081767610140241167
+--- !u!114 &-7489847022179155217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/FMOD Events/BallefulBallade/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638044568201362355
+  FileSizes:
+  - Name: Desktop
+    Value: 12384
+  Exists: 1
+--- !u!114 &-2046644884045050178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,23 +30,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/dasd
+  m_Name: event:/Okay
   m_EditorClassIdentifier: 
-  Path: event:/dasd
+  Path: event:/Okay
   Guid:
-    Data1: -1073914301
-    Data2: 1168667613
-    Data3: 1828597131
-    Data4: -695817143
+    Data1: 147887791
+    Data2: 1231061849
+    Data3: -232366175
+    Data4: 283088822
   Banks:
-  - {fileID: 1826441139760108639}
+  - {fileID: -7489847022179155217}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 917
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,14 +62,15 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 6393921144851265899}
   - {fileID: 1826441139760108639}
+  - {fileID: -7489847022179155217}
   EditorEvents:
-  - {fileID: -8081767610140241167}
+  - {fileID: -2046644884045050178}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1826441139760108639}
   StringsBanks:
   - {fileID: 6393921144851265899}
-  cacheTime: 638044561890755473
+  cacheTime: 638044568201362355
   cacheVersion: 131593
 --- !u!114 &1826441139760108639
 MonoBehaviour:
@@ -66,10 +87,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/FMOD Events/BallefulBallade/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638044561890735526
+  lastModified: 638044568201032134
   FileSizes:
   - Name: Desktop
-    Value: 1730
+    Value: 1036
   Exists: 1
 --- !u!114 &6393921144851265899
 MonoBehaviour:
@@ -86,8 +107,8 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/FMOD Events/BallefulBallade/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638044561890755473
+  lastModified: 638044568201062055
   FileSizes:
   - Name: Desktop
-    Value: 754
+    Value: 798
   Exists: 1
