@@ -1,24 +1,17 @@
 using UnityEngine;
+using FMOD.Studio;
 
 namespace Interactables
 {
-    public class SonoricInteraction : InteractableObject
+    public abstract class SonoricInteraction : InteractableObject
     {
-        public override void Interact()
-        {
-            throw new System.NotImplementedException();
-        }
+        protected EventInstance interactionSound;
+        protected abstract string eventName { get; }
 
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        public override void Interact()=>
+            interactionSound.start();
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+        protected virtual void Start()=>       
+            interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
     }
 }
