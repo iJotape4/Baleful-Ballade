@@ -280,17 +280,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5853767659211957019, guid: f37f07b91829bd74bb8550bfb345360e, type: 3}
   m_PrefabInstance: {fileID: 5853767658148019952}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1097506289 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5853767659211956993, guid: f37f07b91829bd74bb8550bfb345360e, type: 3}
-  m_PrefabInstance: {fileID: 5853767658148019952}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1170319478
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,17 +457,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1368702038 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6351821340862152508, guid: a1780bbdf6ae3df46b111e8fc153db75, type: 3}
-  m_PrefabInstance: {fileID: 6351821340985913227}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1449792703 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 768878045894360519, guid: 553a34cfff87c954fb33183094775792, type: 3}
@@ -489,17 +467,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5931143192154661260, guid: 10432681a12b40c4289aaabb4f012968, type: 3}
   m_PrefabInstance: {fileID: 5931143193390591561}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1516195787 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5931143192154661250, guid: 10432681a12b40c4289aaabb4f012968, type: 3}
-  m_PrefabInstance: {fileID: 5931143193390591561}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1550117107
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,44 +534,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3538890618550800451, guid: 44af5c46668417e47aca711473c76490, type: 3}
   m_PrefabInstance: {fileID: 3538890619810034602}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1643351824 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3538890618550800453, guid: 44af5c46668417e47aca711473c76490, type: 3}
-  m_PrefabInstance: {fileID: 3538890619810034602}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1839743994 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1789952533179153025, guid: d7f99d33c0d9c0c459fd32a8657ae247, type: 3}
   m_PrefabInstance: {fileID: 1789952531508263291}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1923998361 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5128953248234685736, guid: 192c7686eff301e489ffb7a8fa6d2a90, type: 3}
-  m_PrefabInstance: {fileID: 5128953248634593028}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1995386950 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 768878045894360509, guid: 553a34cfff87c954fb33183094775792, type: 3}
-  m_PrefabInstance: {fileID: 768878044655593848}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2073890424 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3428405089591912835, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
@@ -617,18 +551,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
-    - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/UI/Okay
-      objectReference: {fileID: 0}
-    - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
-      propertyPath: doorOpeningEvent
-      value: event:/Puzzles/Puzzle3_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
-      propertyPath: levelValidatorScriptableObject
-      value: 
-      objectReference: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
     - target: {fileID: 488349990793221001, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -726,14 +648,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
-    - target: {fileID: 768878045894360504, guid: 553a34cfff87c954fb33183094775792, type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1995386950}
-    - target: {fileID: 768878045894360504, guid: 553a34cfff87c954fb33183094775792, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_4
-      objectReference: {fileID: 0}
     - target: {fileID: 768878045894360518, guid: 553a34cfff87c954fb33183094775792, type: 3}
       propertyPath: m_Name
       value: ObjectLevel34
@@ -1025,14 +939,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
-    - target: {fileID: 3538890618550800448, guid: 44af5c46668417e47aca711473c76490, type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1643351824}
-    - target: {fileID: 3538890618550800448, guid: 44af5c46668417e47aca711473c76490, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_3
-      objectReference: {fileID: 0}
     - target: {fileID: 3538890618550800450, guid: 44af5c46668417e47aca711473c76490, type: 3}
       propertyPath: m_Name
       value: ObjectLevel33
@@ -1218,14 +1124,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5128953248234685731, guid: 192c7686eff301e489ffb7a8fa6d2a90, type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1923998361}
-    - target: {fileID: 5128953248234685731, guid: 192c7686eff301e489ffb7a8fa6d2a90, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 192c7686eff301e489ffb7a8fa6d2a90, type: 3}
 --- !u!1001 &5853767658148019952
@@ -1322,14 +1220,6 @@ PrefabInstance:
     - target: {fileID: 5853767659211957019, guid: f37f07b91829bd74bb8550bfb345360e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5853767659211957020, guid: f37f07b91829bd74bb8550bfb345360e, type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1097506289}
-    - target: {fileID: 5853767659211957020, guid: f37f07b91829bd74bb8550bfb345360e, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f37f07b91829bd74bb8550bfb345360e, type: 3}
@@ -1428,14 +1318,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectLevel31
       objectReference: {fileID: 0}
-    - target: {fileID: 5931143192154661263, guid: 10432681a12b40c4289aaabb4f012968, type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1516195787}
-    - target: {fileID: 5931143192154661263, guid: 10432681a12b40c4289aaabb4f012968, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10432681a12b40c4289aaabb4f012968, type: 3}
 --- !u!1001 &6351821340985913227
@@ -1445,14 +1327,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
-    - target: {fileID: 6351821340862152505, guid: a1780bbdf6ae3df46b111e8fc153db75, type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1368702038}
-    - target: {fileID: 6351821340862152505, guid: a1780bbdf6ae3df46b111e8fc153db75, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_6
-      objectReference: {fileID: 0}
     - target: {fileID: 6351821340862152506, guid: a1780bbdf6ae3df46b111e8fc153db75, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

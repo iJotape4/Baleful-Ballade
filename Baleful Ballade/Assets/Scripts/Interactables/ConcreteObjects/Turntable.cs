@@ -15,6 +15,13 @@ namespace Interactables
             AddOutlineEvents();
             eventSoundPath = levelValidatorScriptableObject.completeMelody;
             StartCoroutine(HintCounter());
+
+
+            if (levelValidatorScriptableObject.associatedLevel == 1 && Application.isPlaying)
+            {
+                CallDeactivateInteraction();
+                levelValidatorScriptableObject.letterEvent += CallReactivateInteraction;
+            }
         }
 
         public override void Interact()

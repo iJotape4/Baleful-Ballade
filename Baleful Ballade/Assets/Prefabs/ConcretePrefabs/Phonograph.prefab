@@ -170,4 +170,5 @@ MonoBehaviour:
   outline: {fileID: 3428405089591912832}
   eventTrigger: {fileID: 3428405089591912833}
   button: {fileID: 3428405089591912837}
-  levelValidatorScriptableObject: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
+  levelValidatorScriptableObject: {fileID: 0}
+  alreadyTouched: 0

@@ -164,8 +164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1095949fb2c585b49be8351bc40c5fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  eventSoundPath: 
+  flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
+  flash: {fileID: 0}
   outline: {fileID: 183456333712950007}
   eventTrigger: {fileID: 183456333712950006}
-  levelValidatorScriptableObject: {fileID: 11400000, guid: 2a09673c647e9ed4b898eb2158f30967, type: 2}
-  melodyPartIndex: 0
+  button: {fileID: 183456333712949994}
+  levelValidatorScriptableObject: {fileID: 0}

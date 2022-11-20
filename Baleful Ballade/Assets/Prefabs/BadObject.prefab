@@ -164,7 +164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97126ede64bae748a0b9c02e05762fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  eventSoundPath: 
+  flashSprite: {fileID: 0}
+  flash: {fileID: 0}
   outline: {fileID: 4262204949098991195}
   eventTrigger: {fileID: 4262204949098991196}
-  levelValidatorScriptableObject: {fileID: 11400000, guid: 2a09673c647e9ed4b898eb2158f30967, type: 2}
+  button: {fileID: 0}
+  levelValidatorScriptableObject: {fileID: 0}
