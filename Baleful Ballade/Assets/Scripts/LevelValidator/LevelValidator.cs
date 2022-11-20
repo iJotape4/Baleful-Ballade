@@ -44,7 +44,9 @@ public class LevelValidator : MonoBehaviour
        if(melodies.Count == levelValidatorScriptableObject.soundsList.Count)
         {
             levelValidatorScriptableObject.levelCompleteEvent?.Invoke();
-            levelFinished = true; 
+            levelFinished = true;
+            if (levelValidatorScriptableObject.associatedLevel == 3)
+                levelValidatorScriptableObject.pictureEvent?.Invoke();
         }
     }
 
