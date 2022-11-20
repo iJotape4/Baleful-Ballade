@@ -2,6 +2,7 @@ using UnityEngine;
 using FMOD.Studio;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 namespace Interactables
 {
@@ -10,7 +11,7 @@ namespace Interactables
     {
         protected EventInstance interactionSound;
         protected abstract string eventName { get; }
-
+        [SerializeField] protected string eventSoundPath;
         [SerializeField] protected Sprite sprite;
         [SerializeField] protected Outline outline;
         [SerializeField] protected EventTrigger eventTrigger;
@@ -28,7 +29,7 @@ namespace Interactables
         protected virtual void Start()
         {
             if (levelValidatorScriptableObject == null)
-                Debug.LogWarning( string.Format( "Scriptable object is null in {0}", this.gameObject.name));
+                FindLevelScriptableValidator();            
 
             GetComponent<Button>().onClick.AddListener(Interact);
 
@@ -45,6 +46,25 @@ namespace Interactables
 
         protected virtual void ShowOutline( bool show)=>
             outline.enabled = show;
+
+        protected void FindLevelScriptableValidator()
+        {
+            string name = SceneManager.GetActiveScene().name;
+            string num = name.Substring(name.Length - 1);
+
+            foreach (var x in Resources.FindObjectsOfTypeAll<LevelValidatorScriptableObject>())
+            {
+               string temp =  x.name.Split(" ", System.StringSplitOptions.None)[1];
+
+                if (temp == num)
+                {
+                    levelValidatorScriptableObject = x;
+                    return;
+                }
+            }
+
+            Debug.LogWarning(string.Format("Scriptable object is null in {0}", this.gameObject.name));
+        }
 
         protected virtual void AddOutlineEvents()
         {
