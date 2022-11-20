@@ -20,3 +20,4 @@ MonoBehaviour:
   - event:/Puzzle_3/Puzzle_3_half_5
   - event:/Puzzle_3/Puzzle_3_half_6
   nextSceneName: Level4
+  completeMelody: event:/Puzzle_3/Puzzle_3

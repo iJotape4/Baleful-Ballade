@@ -3,6 +3,7 @@ using FMOD.Studio;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 namespace Interactables
 {
@@ -15,6 +16,7 @@ namespace Interactables
         [SerializeField] protected Sprite sprite;
         [SerializeField] protected Outline outline;
         [SerializeField] protected EventTrigger eventTrigger;
+        [SerializeField] protected Image image;
         EventTrigger.Entry entry;
         EventTrigger.Entry exit;
 
@@ -32,6 +34,7 @@ namespace Interactables
                 FindLevelScriptableValidator();            
 
             GetComponent<Button>().onClick.AddListener(Interact);
+            image = GetComponent<Image>();
 
             outline = GetComponent<Outline>();
             outline.effectColor = Color.white;
@@ -41,7 +44,11 @@ namespace Interactables
             eventTrigger = GetComponent<EventTrigger>();
 
             if (Application.isPlaying)
+            {
                 interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
+                levelValidatorScriptableObject.levelCompleteEvent += CallDeactivateInteraction;
+                levelValidatorScriptableObject.melodyFinishedEvent += CallReactivateInteraction;
+            }
         }      
 
         protected virtual void ShowOutline( bool show)=>
@@ -81,5 +88,10 @@ namespace Interactables
                 eventTrigger.triggers.Add(exit);
             }
         }
+
+        protected void CallDeactivateInteraction() =>
+            image.raycastTarget = false;
+        protected void CallReactivateInteraction() =>
+            image.raycastTarget = true;
     }
 }

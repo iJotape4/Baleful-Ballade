@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,8 +10,14 @@ public class LevelValidator : MonoBehaviour
     [SerializeField] List<string> melodies = new List<string>();
     [SerializeField] bool levelFinished;
 
-    private void Start()=>    
+    protected EventInstance fullMelodySound; 
+
+    private void Start()
+    {
         levelValidatorScriptableObject.touchItemAction += ListenMelodiesParts;
+        fullMelodySound = FMODUnity.RuntimeManager.CreateInstance(levelValidatorScriptableObject.completeMelody);
+        levelValidatorScriptableObject.levelCompleteEvent += ReproduceCompleteMelody;
+    }    
 
 
     public void ListenMelodiesParts(string melody)
@@ -39,4 +46,24 @@ public class LevelValidator : MonoBehaviour
         }
     }
 
+    public void ReproduceCompleteMelody()=>
+            StartCoroutine(ActivateInteractionsOnMelodyEnd());
+          
+    public IEnumerator ActivateInteractionsOnMelodyEnd()
+    {
+        yield return new WaitForSeconds(2f);
+        fullMelodySound.start();
+        PLAYBACK_STATE pS =PLAYBACK_STATE.PLAYING;
+
+        while(pS != PLAYBACK_STATE.STOPPED)
+        {
+            yield return new WaitForSeconds(0.1f);
+            fullMelodySound.getPlaybackState(out pS);
+        }      
+
+        levelValidatorScriptableObject.melodyFinishedEvent?.Invoke();
+        
+    }
 }
+
+
