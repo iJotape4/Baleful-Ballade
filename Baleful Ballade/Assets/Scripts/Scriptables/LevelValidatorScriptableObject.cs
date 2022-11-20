@@ -9,4 +9,5 @@ public class LevelValidatorScriptableObject : ScriptableObject
     public UnityAction levelCompleteEvent;
 
     [SerializeField] public List<string> soundsList = new List<string>();
+    [SerializeField] public string nextSceneName;
 }

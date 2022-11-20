@@ -27,6 +27,9 @@ namespace Interactables
 
         protected virtual void Start()
         {
+            if (levelValidatorScriptableObject == null)
+                Debug.LogWarning( string.Format( "Scriptable object is null in {0}", this.gameObject.name));
+
             GetComponent<Button>().onClick.AddListener(Interact);
 
             outline = GetComponent<Outline>();

@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74c7f52ab36786f47957bf18ab63da91, type: 3}
-  m_Name: Level 1 Validator
+  m_Name: Level 3 Validator
   m_EditorClassIdentifier: 
   soundsList:
   - event:/UI/Okay
   - event:/UI/Okay
-  - event:/UI/Okay
-  nextSceneName: Level2
+  nextSceneName: Level4
