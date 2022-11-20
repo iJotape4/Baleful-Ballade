@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74c7f52ab36786f47957bf18ab63da91, type: 3}
-  m_Name: Level 1 Validator
+  m_Name: Level 4 Validator
   m_EditorClassIdentifier: 
-  associatedLevel: 1
+  associatedLevel: 4
   soundsList:
-  - event:/Puzzles/Puzzle1_1
-  - event:/Puzzles/Puzzle1_1
-  nextSceneName: Level2
-  completeMelody: event:/Puzzles/Puzzle1
+  - event:/Puzzles/Puzzle4_1
+  nextSceneName: final
+  completeMelody: event:/Puzzles/Puzzle4

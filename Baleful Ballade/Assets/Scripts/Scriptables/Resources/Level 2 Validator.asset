@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c7f52ab36786f47957bf18ab63da91, type: 3}
   m_Name: Level 2 Validator
   m_EditorClassIdentifier: 
+  associatedLevel: 2
   soundsList:
-  - event:/UI/Okay
-  - event:/UI/Okay
+  - event:/Puzzles/Puzzle2_1
+  - event:/Puzzles/Puzzle2_2
+  - event:/Puzzles/Puzzle2_3
+  - event:/Puzzles/Puzzle2_4
   nextSceneName: Level3
+  completeMelody: event:/Puzzles/Puzzle2
