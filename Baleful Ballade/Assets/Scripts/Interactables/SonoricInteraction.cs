@@ -16,7 +16,7 @@ namespace Interactables
         [SerializeField] protected Sprite sprite;
         [SerializeField] protected Outline outline;
         [SerializeField] protected EventTrigger eventTrigger;
-        [SerializeField] protected Image image;
+        [SerializeField] protected Button button;
         EventTrigger.Entry entry;
         EventTrigger.Entry exit;
 
@@ -31,10 +31,10 @@ namespace Interactables
         protected virtual void Start()
         {
             if (levelValidatorScriptableObject == null)
-                FindLevelScriptableValidator();            
+                FindLevelScriptableValidator();
 
-            GetComponent<Button>().onClick.AddListener(Interact);
-            image = GetComponent<Image>();
+            button = GetComponent<Button>();
+            button.onClick.AddListener(Interact);
 
             outline = GetComponent<Outline>();
             outline.effectColor = Color.white;
@@ -90,8 +90,8 @@ namespace Interactables
         }
 
         protected void CallDeactivateInteraction() =>
-            image.raycastTarget = false;
+            button.enabled = false;
         protected void CallReactivateInteraction() =>
-            image.raycastTarget = true;
+            button.enabled = true;
     }
 }
