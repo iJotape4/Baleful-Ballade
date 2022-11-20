@@ -7,6 +7,7 @@ public class LevelValidator : MonoBehaviour
    [SerializeField] LevelValidatorScriptableObject levelValidatorScriptableObject;
 
     [SerializeField] List<string> melodies = new List<string>();
+    [SerializeField] bool levelFinished;
 
     private void Start()=>    
         levelValidatorScriptableObject.touchItemAction += ListenMelodiesParts;
@@ -17,7 +18,8 @@ public class LevelValidator : MonoBehaviour
          if(melodies.Count< levelValidatorScriptableObject.soundsList.Count)
             melodies.Add(melody);
 
-        CheckMelodiesList();
+         if(!levelFinished)
+            CheckMelodiesList();
     }
 
     public void CheckMelodiesList()
@@ -31,7 +33,10 @@ public class LevelValidator : MonoBehaviour
             }
        }
        if(melodies.Count == levelValidatorScriptableObject.soundsList.Count)
-        levelValidatorScriptableObject.levelCompleteEvent?.Invoke();
+        {
+            levelValidatorScriptableObject.levelCompleteEvent?.Invoke();
+            levelFinished = true; 
+        }
     }
 
 }
