@@ -1,26 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7489847022179155217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/UI.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/FMOD Events/BallefulBallade/Build/Desktop/UI.bank
-  Name: UI
-  StudioPath: bank:/UI
-  lastModified: 638044568201362355
-  FileSizes:
-  - Name: Desktop
-    Value: 12384
-  Exists: 1
---- !u!114 &-2046644884045050178
+--- !u!114 &-7126762316959473263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,16 +10,128 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Okay
+  m_Name: event:/Puzzle_3/Puzzle_3_half_6
   m_EditorClassIdentifier: 
-  Path: event:/Okay
+  Path: event:/Puzzle_3/Puzzle_3_half_6
   Guid:
-    Data1: 147887791
-    Data2: 1231061849
-    Data3: -232366175
-    Data4: 283088822
+    Data1: -1618223505
+    Data2: 1224968145
+    Data3: -1957264228
+    Data4: 466686658
   Banks:
-  - {fileID: -7489847022179155217}
+  - {fileID: -6306813530651294076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2074
+--- !u!114 &-7090462352545755760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle_3/Puzzle_3_half_2
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle_3/Puzzle_3_half_2
+  Guid:
+    Data1: -1513393676
+    Data2: 1324822905
+    Data3: 615584899
+    Data4: -1189508922
+  Banks:
+  - {fileID: -6306813530651294076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1877
+--- !u!114 &-6306813530651294076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Puzzles.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Puzzles.bank
+  Name: Puzzles
+  StudioPath: bank:/Puzzles
+  lastModified: 638044847828191885
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5218769172299169269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638044641280000000
+  FileSizes:
+  - Name: 
+    Value: 762
+  Exists: 1
+--- !u!114 &-4978419651197372437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638044847827912616
+  FileSizes:
+  - Name: 
+    Value: 1122
+  Exists: 1
+--- !u!114 &-3567735326584062160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Okay
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Okay
+  Guid:
+    Data1: -467115556
+    Data2: 1230103258
+    Data3: -39569990
+    Data4: 723432944
+  Banks:
+  - {fileID: 4572190158024556542}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -47,6 +139,46 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 917
+--- !u!114 &-3102496735433971498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638044641280000000
+  FileSizes:
+  - Name: 
+    Value: 762
+  Exists: 1
+--- !u!114 &-391258623797506154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638044641280000000
+  FileSizes:
+  - Name: 
+    Value: 762
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,19 +192,55 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6393921144851265899}
-  - {fileID: 1826441139760108639}
-  - {fileID: -7489847022179155217}
+  - {fileID: -4978419651197372437}
+  - {fileID: 1973050507699616037}
+  - {fileID: -6306813530651294076}
+  - {fileID: 4572190158024556542}
   EditorEvents:
-  - {fileID: -2046644884045050178}
+  - {fileID: -7126762316959473263}
+  - {fileID: 9014231814272622712}
+  - {fileID: 587189060369241192}
+  - {fileID: 2577266819146486992}
+  - {fileID: 8407335935969955570}
+  - {fileID: 5477180830447436753}
+  - {fileID: -7090462352545755760}
+  - {fileID: 26831629915217636}
+  - {fileID: -3567735326584062160}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 1826441139760108639}
+  - {fileID: 1973050507699616037}
   StringsBanks:
-  - {fileID: 6393921144851265899}
-  cacheTime: 638044568201362355
+  - {fileID: -4978419651197372437}
+  cacheTime: 638044847828411278
   cacheVersion: 131593
---- !u!114 &1826441139760108639
+--- !u!114 &26831629915217636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Cancel
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Cancel
+  Guid:
+    Data1: -1926432194
+    Data2: 1175938758
+    Data3: -1593400960
+    Data4: 924744784
+  Banks:
+  - {fileID: 4572190158024556542}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1026
+--- !u!114 &379324691235298034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,15 +252,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/FMOD Events/BallefulBallade/Build/Desktop/Master.bank
+  Path: Build FMOD/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638044568201032134
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
+  lastModified: 638044641280000000
+  FileSizes: []
   Exists: 1
---- !u!114 &6393921144851265899
+--- !u!114 &587189060369241192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle_3/Puzzle_3_half_5
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle_3/Puzzle_3_half_5
+  Guid:
+    Data1: -1353623385
+    Data2: 1295438199
+    Data3: -1425579385
+    Data4: 625586370
+  Banks:
+  - {fileID: -6306813530651294076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1480
+--- !u!114 &1331956858978284327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,13 +295,245 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Puzzles.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/FMOD Events/BallefulBallade/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638044568201062055
-  FileSizes:
-  - Name: Desktop
-    Value: 798
+  Path: Build FMOD/Puzzles.bank
+  Name: Puzzles
+  StudioPath: bank:/Puzzles
+  lastModified: 638044641280000000
+  FileSizes: []
   Exists: 1
+--- !u!114 &1705979961839003357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Puzzles.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Puzzles.bank
+  Name: Puzzles
+  StudioPath: bank:/Puzzles
+  lastModified: 638044641280000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1957578540231640836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638044641280000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1973050507699616037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638044847827802907
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2577266819146486992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle_3/Puzzle_3
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle_3/Puzzle_3
+  Guid:
+    Data1: 1570414248
+    Data2: 1132196290
+    Data3: 2025623459
+    Data4: -1002236956
+  Banks:
+  - {fileID: -6306813530651294076}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10414
+--- !u!114 &4572190158024556542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638044847828411278
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4805057578547393289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Puzzles.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Puzzles.assets.bank
+  Name: Puzzles.assets
+  StudioPath: 
+  lastModified: 638044804772841525
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5070420214789033231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638044641280000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5477180830447436753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle_3/Puzzle_3_half_4
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle_3/Puzzle_3_half_4
+  Guid:
+    Data1: -183481161
+    Data2: 1113281555
+    Data3: 1934828687
+    Data4: 268142988
+  Banks:
+  - {fileID: -6306813530651294076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1852
+--- !u!114 &6506557985705823534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Puzzles.bank
+  m_EditorClassIdentifier: 
+  Path: Build FMOD/Puzzles.bank
+  Name: Puzzles
+  StudioPath: bank:/Puzzles
+  lastModified: 638044641280000000
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8407335935969955570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle_3/Puzzle_3_half_1
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle_3/Puzzle_3_half_1
+  Guid:
+    Data1: 1508125876
+    Data2: 1188606162
+    Data3: -1449265249
+    Data4: 1254227946
+  Banks:
+  - {fileID: -6306813530651294076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1963
+--- !u!114 &9014231814272622712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puzzle_3/Puzzle_3_half_3
+  m_EditorClassIdentifier: 
+  Path: event:/Puzzle_3/Puzzle_3_half_3
+  Guid:
+    Data1: 583241096
+    Data2: 1153074100
+    Data3: -742892143
+    Data4: -975912941
+  Banks:
+  - {fileID: -6306813530651294076}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1234
