@@ -15,6 +15,6 @@ MonoBehaviour:
   associatedLevel: 1
   soundsList:
   - event:/Puzzles/Puzzle1_1
-  - event:/Puzzles/Puzzle1_1
+  - event:/Puzzles/Puzzle1_2
   nextSceneName: Level2
   completeMelody: event:/Puzzles/Puzzle1

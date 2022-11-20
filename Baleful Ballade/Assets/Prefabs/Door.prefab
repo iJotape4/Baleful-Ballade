@@ -41,7 +41,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 165}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &488349990793220995
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 295b58537620531418907406e9fe63f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -171,7 +171,7 @@ MonoBehaviour:
   outline: {fileID: 488349990793220998}
   eventTrigger: {fileID: 488349990793220999}
   button: {fileID: 488349990793220995}
-  levelValidatorScriptableObject: {fileID: 0}
+  levelValidatorScriptableObject: {fileID: 11400000, guid: 2a09673c647e9ed4b898eb2158f30967, type: 2}
   doorOpeningEvent: event:/Puzzles/Puzzle3_2
   doorDisabledEvent: event:/UI/Cancel
 --- !u!95 &488349990793220994
