@@ -2,15 +2,8 @@ using UnityEngine;
 
 namespace Interactables
 {
-    public class ObjectLevel33 : SonoricInteraction
+    public class ObjectLevel33 : RightSonoricInteraction
     {
-        [SerializeField] protected override string eventName => eventSoundPath;
-
-        protected override void Start()
-        {
-            base.Start();
-            AddOutlineEvents();
-        }
     }
 
 }

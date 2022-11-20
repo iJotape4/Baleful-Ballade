@@ -4,13 +4,13 @@ namespace Interactables
 {
     public class RightSonoricInteraction : SonoricInteraction
     {
-        [SerializeField] protected override string eventName => "event:/UI/Okay";
-        [SerializeField] public int melodyPartIndex;    
+        [SerializeField] protected override string eventName => eventSoundPath;
 
         protected override void Start()
         {
             base.Start();
             AddOutlineEvents();
+            EnableFlashAnimation();
         }
     }
 }

@@ -165,10 +165,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8494343bc47280a409e4bce848fa39fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  eventSoundPath: event:/UI/Okay
+  flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
+  flash: {fileID: 0}
   outline: {fileID: 488349990793220998}
   eventTrigger: {fileID: 488349990793220999}
-  levelValidatorScriptableObject: {fileID: 11400000, guid: 2a09673c647e9ed4b898eb2158f30967, type: 2}
+  button: {fileID: 488349990793220995}
+  levelValidatorScriptableObject: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
+  doorOpeningEvent: event:/Puzzles/Puzzle3_2
+  doorDisabledEvent: event:/UI/Cancel
 --- !u!95 &488349990793220994
 Animator:
   serializedVersion: 4

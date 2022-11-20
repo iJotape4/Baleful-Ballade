@@ -13,7 +13,8 @@ namespace Interactables
         protected EventInstance interactionSound;
         protected abstract string eventName { get; }
         [SerializeField] protected string eventSoundPath;
-        [SerializeField] protected Sprite sprite;
+        [SerializeField] protected GameObject flashSprite;
+        [SerializeField] protected GameObject flash;
         [SerializeField] protected Outline outline;
         [SerializeField] protected EventTrigger eventTrigger;
         [SerializeField] protected Button button;
@@ -43,11 +44,16 @@ namespace Interactables
 
             eventTrigger = GetComponent<EventTrigger>();
 
+            flashSprite = Resources.Load<GameObject>("Flash");
+
+
             if (Application.isPlaying)
             {
                 interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
                 levelValidatorScriptableObject.levelCompleteEvent += CallDeactivateInteraction;
                 levelValidatorScriptableObject.melodyFinishedEvent += CallReactivateInteraction;
+
+                flash = Instantiate(flashSprite, transform);              
             }
         }      
 
@@ -93,5 +99,8 @@ namespace Interactables
             button.enabled = false;
         protected void CallReactivateInteraction() =>
             button.enabled = true;
+
+        protected void EnableFlashAnimation()=>
+            flash.GetComponent<Animator>().SetTrigger("Turn");
     }
 }

@@ -165,7 +165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventSoundPath: event:/Puzzles/Puzzle3
-  sprite: {fileID: 0}
+  flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
+  flash: {fileID: 0}
   outline: {fileID: 3428405089591912832}
   eventTrigger: {fileID: 3428405089591912833}
   button: {fileID: 3428405089591912837}

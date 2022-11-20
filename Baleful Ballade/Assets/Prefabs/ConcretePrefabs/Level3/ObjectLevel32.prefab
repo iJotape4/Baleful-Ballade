@@ -82,7 +82,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 5853767659211957023}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -164,8 +164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959e397c9cb896a439c96ea834aff01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventSoundPath: event:/Puzzle_3/Puzzle_3_half_2
-  sprite: {fileID: 0}
+  eventSoundPath: event:/Puzzles/Puzzle3_2
+  flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
+  flash: {fileID: 0}
   outline: {fileID: 5853767659211957022}
   eventTrigger: {fileID: 5853767659211957021}
+  button: {fileID: 5853767659211956993}
   levelValidatorScriptableObject: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
