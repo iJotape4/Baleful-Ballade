@@ -13,7 +13,6 @@ namespace Interactables
         {
             base.Start();
             AddOutlineEvents();
-            eventSoundPath = levelValidatorScriptableObject.completeMelody;
             StartCoroutine(HintCounter());
 
 
@@ -26,9 +25,10 @@ namespace Interactables
 
         public override void Interact()
         {
-            base.Interact();
+            interactionSound.start();
             levelValidatorScriptableObject.startPuzzleEvent?.Invoke();
             alreadyTouched = true;
+
         }
 
         public IEnumerator HintCounter() 
