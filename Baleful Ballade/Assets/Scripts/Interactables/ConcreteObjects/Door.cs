@@ -5,25 +5,31 @@ using UnityEngine;
 
 namespace Interactables
 {
-    public class Door : InteractableObject
+    public class Door : SonoricInteraction
     {
-        [SerializeField] public LevelValidatorScriptableObject levelValidatorScriptableObject;
         protected EventInstance doorSoundOpening;
         protected EventInstance doorSoundDisable;
 
-        protected string doorOpeningEvent ="";
-        protected string doorDisabledEvent ="";
+        protected string doorOpeningEvent = "event:/Puzzle_3/Puzzle_3_half_2";
+        protected string doorDisabledEvent = "event:/Puzzle_3/Puzzle_3_half_2";
 
-        public override void Interact()
+        protected override string eventName => "event:/Puzzle_3/Puzzle_3_half_2";
+
+        public new void Interact()
         {
             if (activeInteraction)
+            {
+                interactionSound.start();
                 GoNextLevel();
+
+            }
             else
                 doorSoundDisable.start();
         }
 
-        private void Start()
+        protected override void Start()
         {
+            base.Start();
             levelValidatorScriptableObject.levelCompleteEvent += OpenDoor;
             doorSoundOpening = FMODUnity.RuntimeManager.CreateInstance(doorOpeningEvent);
             doorSoundDisable = FMODUnity.RuntimeManager.CreateInstance(doorDisabledEvent);
@@ -32,6 +38,7 @@ namespace Interactables
         private void OpenDoor()
         {
             doorSoundOpening.start();
+            AddOutlineEvents();
             Debug.Log("Level Complete");
             //Animation 
         }

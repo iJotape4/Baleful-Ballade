@@ -36,8 +36,15 @@ namespace Interactables
 
             eventTrigger = GetComponent<EventTrigger>();
 
-            if (eventTrigger.triggers.Count !=2)
-            {
+            if (Application.isPlaying)
+                interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
+        }      
+
+        protected virtual void ShowOutline( bool show)=>
+            outline.enabled = show;
+
+        protected virtual void AddOutlineEvents()
+        {
                 entry = new EventTrigger.Entry();
                 entry.eventID = EventTriggerType.PointerEnter;
                 entry.callback.AddListener((data) => { ShowOutline(true); });
@@ -45,15 +52,8 @@ namespace Interactables
 
                 exit = new EventTrigger.Entry();
                 exit.eventID = EventTriggerType.PointerExit;
-                exit.callback.AddListener((data) =>{ ShowOutline(false); });
-                eventTrigger.triggers.Add(exit); 
-            }
-
-            if (Application.isPlaying)
-            interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
-        }      
-
-        protected virtual void ShowOutline( bool show)=>
-            outline.enabled = show;
+                exit.callback.AddListener((data) => { ShowOutline(false); });
+                eventTrigger.triggers.Add(exit);           
+        }
     }
 }
