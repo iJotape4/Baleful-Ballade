@@ -45,6 +45,8 @@ namespace Interactables
 
         protected virtual void AddOutlineEvents()
         {
+            if (Application.isPlaying)
+            {
                 entry = new EventTrigger.Entry();
                 entry.eventID = EventTriggerType.PointerEnter;
                 entry.callback.AddListener((data) => { ShowOutline(true); });
@@ -53,7 +55,8 @@ namespace Interactables
                 exit = new EventTrigger.Entry();
                 exit.eventID = EventTriggerType.PointerExit;
                 exit.callback.AddListener((data) => { ShowOutline(false); });
-                eventTrigger.triggers.Add(exit);           
+                eventTrigger.triggers.Add(exit);
+            }
         }
     }
 }
