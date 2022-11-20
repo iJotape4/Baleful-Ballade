@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class LevelValidatorScriptableObject : ScriptableObject
 {
     public UnityAction<string> touchItemAction;
+    public UnityAction startPuzzleEvent;
     public UnityAction levelCompleteEvent;
     public UnityAction melodyFinishedEvent;
 

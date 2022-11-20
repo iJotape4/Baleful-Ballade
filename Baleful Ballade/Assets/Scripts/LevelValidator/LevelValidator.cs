@@ -8,6 +8,7 @@ public class LevelValidator : MonoBehaviour
    [SerializeField] LevelValidatorScriptableObject levelValidatorScriptableObject;
 
     [SerializeField] List<string> melodies = new List<string>();
+    [SerializeField] bool levelStarted =false;
     [SerializeField] bool levelFinished;
 
     protected EventInstance fullMelodySound; 
@@ -17,12 +18,13 @@ public class LevelValidator : MonoBehaviour
         levelValidatorScriptableObject.touchItemAction += ListenMelodiesParts;
         fullMelodySound = FMODUnity.RuntimeManager.CreateInstance(levelValidatorScriptableObject.completeMelody);
         levelValidatorScriptableObject.levelCompleteEvent += ReproduceCompleteMelody;
+        levelValidatorScriptableObject.startPuzzleEvent += StartPuzzle;
     }    
 
 
     public void ListenMelodiesParts(string melody)
     {
-         if(melodies.Count< levelValidatorScriptableObject.soundsList.Count)
+         if(melodies.Count< levelValidatorScriptableObject.soundsList.Count && levelStarted)
             melodies.Add(melody);
 
          if(!levelFinished)
@@ -48,7 +50,10 @@ public class LevelValidator : MonoBehaviour
 
     public void ReproduceCompleteMelody()=>
             StartCoroutine(ActivateInteractionsOnMelodyEnd());
-          
+
+    public void StartPuzzle() =>
+        levelStarted = true;
+
     public IEnumerator ActivateInteractionsOnMelodyEnd()
     {
         yield return new WaitForSeconds(2f);

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Level 3 Validator
   m_EditorClassIdentifier: 
   soundsList:
-  - event:/Puzzle_3/Puzzle_3_half_1
-  - event:/Puzzle_3/Puzzle_3_half_2
-  - event:/Puzzle_3/Puzzle_3_half_3
-  - event:/Puzzle_3/Puzzle_3_half_4
-  - event:/Puzzle_3/Puzzle_3_half_5
-  - event:/Puzzle_3/Puzzle_3_half_6
+  - event:/Puzzles/Puzzle3_1
+  - event:/Puzzles/Puzzle3_2
+  - event:/Puzzles/Puzzle3_3
+  - event:/Puzzles/Puzzle3_4
+  - event:/Puzzles/Puzzle3_5
+  - event:/Puzzles/Puzzle3_6
   nextSceneName: Level4
-  completeMelody: event:/Puzzle_3/Puzzle_3
+  completeMelody: event:/Puzzles/Puzzle3
