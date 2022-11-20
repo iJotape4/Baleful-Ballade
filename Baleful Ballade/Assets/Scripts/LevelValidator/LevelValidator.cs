@@ -14,8 +14,9 @@ public class LevelValidator : MonoBehaviour
 
     public void ListenMelodiesParts(string melody)
     {
+         if(melodies.Count< levelValidatorScriptableObject.soundsList.Count)
+            melodies.Add(melody);
 
-        melodies.Add(melody);
         CheckMelodiesList();
     }
 

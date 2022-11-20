@@ -22,7 +22,7 @@ namespace Interactables
         public override void Interact()
         {
             levelValidatorScriptableObject.touchItemAction?.Invoke(eventName);
-           // interactionSound.start();
+            interactionSound.start();
         }
 
         protected virtual void Start()

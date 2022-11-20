@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Level 1 Validator
   m_EditorClassIdentifier: 
   soundsList:
-  - event:/Okay
-  - event:/Okay
-  - event:/Okay
+  - event:/UI/Okay
+  - event:/UI/Okay
+  - event:/UI/Okay
