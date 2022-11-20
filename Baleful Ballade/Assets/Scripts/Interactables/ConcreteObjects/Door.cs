@@ -12,12 +12,12 @@ namespace Interactables
         protected EventInstance doorSoundOpening;
         protected EventInstance doorSoundDisable;
 
-        protected string doorOpeningEvent = "event:/Puzzle_3/Puzzle_3_half_2";
-        protected string doorDisabledEvent = "event:/UI/Cancel";
+        [SerializeField] protected string doorOpeningEvent = "event:/Puzzle_3/Puzzle_3_half_2";
+        [SerializeField] protected string doorDisabledEvent = "event:/UI/Cancel";
 
         protected string animTriggerOpenDoor = "OpenDoor";
 
-        protected override string eventName => "event:/Puzzle_3/Puzzle_3_half_2";
+        protected override string eventName => eventSoundPath;
 
         public override void Interact()
         {
