@@ -164,11 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61c7483e8106d094da467b4d1f1ac971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventSoundPath: event:/Puzzles/Puzzle3
+  eventSoundPath: 
   flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
   flash: {fileID: 0}
   outline: {fileID: 3428405089591912832}
   eventTrigger: {fileID: 3428405089591912833}
   button: {fileID: 3428405089591912837}
-  levelValidatorScriptableObject: {fileID: 0}
+  levelValidatorScriptableObject: {fileID: 11400000, guid: d7a4b28d179d900419822f44b0c08fd3, type: 2}
   alreadyTouched: 0
