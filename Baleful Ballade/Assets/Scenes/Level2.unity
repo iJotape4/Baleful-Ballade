@@ -1291,6 +1291,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
     - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
+      propertyPath: eventSoundPath
+      value: event:/Puzzles/Puzzle3_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: levelValidatorScriptableObject
       value: 
       objectReference: {fileID: 11400000, guid: d7a4b28d179d900419822f44b0c08fd3, type: 2}

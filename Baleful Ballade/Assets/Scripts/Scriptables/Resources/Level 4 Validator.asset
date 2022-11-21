@@ -15,5 +15,5 @@ MonoBehaviour:
   associatedLevel: 4
   soundsList:
   - event:/Puzzles/Puzzle4_1
-  nextSceneName: final
+  nextSceneName: Credits
   completeMelody: event:/Puzzles/Puzzle4

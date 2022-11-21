@@ -563,6 +563,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
+    - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
+      propertyPath: eventSoundPath
+      value: event:/Puzzles/Puzzle3_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
+      propertyPath: levelValidatorScriptableObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
     - target: {fileID: 488349990793221001, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -16,9 +16,13 @@ public class LevelValidator : MonoBehaviour
     private void Start()
     {
         levelValidatorScriptableObject.touchItemAction += ListenMelodiesParts;
-        fullMelodySound = FMODUnity.RuntimeManager.CreateInstance(levelValidatorScriptableObject.completeMelody);
+        //fullMelodySound = FMODUnity.RuntimeManager.CreateInstance(levelValidatorScriptableObject.completeMelody);
         //levelValidatorScriptableObject.levelCompleteEvent += ReproduceCompleteMelody;
-        levelValidatorScriptableObject.startPuzzleEvent += StartPuzzle;
+
+        if (levelValidatorScriptableObject.associatedLevel != 4)
+            levelValidatorScriptableObject.startPuzzleEvent += StartPuzzle;
+        else
+            StartPuzzle();
     }    
 
 

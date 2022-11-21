@@ -101,6 +101,6 @@ namespace Interactables
             button.enabled = true;
 
         protected void EnableFlashAnimation()=>
-            flash.GetComponent<Animator>().SetTrigger("Turn");
+            flash.GetComponent<Animator>().SetTrigger("Turn");  
     }
 }
