@@ -39,7 +39,7 @@ namespace Interactables
 
             outline = GetComponent<Outline>();
             outline.effectColor = Color.white;
-            outline.effectDistance = new Vector2(3f, 3f);
+            outline.effectDistance = new Vector2(1f, 1f);
             outline.enabled = false;
 
             eventTrigger = GetComponent<EventTrigger>();
