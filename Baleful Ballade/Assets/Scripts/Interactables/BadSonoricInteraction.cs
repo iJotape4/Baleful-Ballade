@@ -4,7 +4,7 @@ namespace Interactables
 {
     public class BadSonoricInteraction : SonoricInteraction
     {
-        [SerializeField] protected override string eventName => "event:/UI/Cancel";
+        [SerializeField] protected override string eventName => eventSoundPath;
         protected override void Start()
         {
             base.Start();
