@@ -50,7 +50,7 @@ namespace Interactables
             if (Application.isPlaying)
             {
                 interactionSound = FMODUnity.RuntimeManager.CreateInstance(eventName);
-                levelValidatorScriptableObject.levelCompleteEvent += CallDeactivateInteraction;
+               // levelValidatorScriptableObject.levelCompleteEvent += CallDeactivateInteraction;
                 levelValidatorScriptableObject.melodyFinishedEvent += CallReactivateInteraction;
 
                 flash = Instantiate(flashSprite, transform);              

@@ -11,6 +11,7 @@ public class LevelValidatorScriptableObject : ScriptableObject
     public UnityAction levelCompleteEvent;
     public UnityAction melodyFinishedEvent;
     public UnityAction pictureEvent;
+    public UnityAction goNextLevelEvent;
 
     [SerializeField] public int associatedLevel; 
     [SerializeField] public List<string> soundsList = new List<string>();

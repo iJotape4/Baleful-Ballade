@@ -34,7 +34,7 @@ namespace Interactables
         protected override void Start()
         {
             base.Start();
-            levelValidatorScriptableObject.melodyFinishedEvent += OpenDoor;
+            levelValidatorScriptableObject.levelCompleteEvent += OpenDoor;
             doorSoundOpening = FMODUnity.RuntimeManager.CreateInstance(doorOpeningEvent);
             doorSoundDisable = FMODUnity.RuntimeManager.CreateInstance(doorDisabledEvent);
         }
@@ -49,8 +49,7 @@ namespace Interactables
             //Animation 
         }
 
-        private void GoNextLevel()=>       
-            SceneManager.LoadScene(levelValidatorScriptableObject.nextSceneName, LoadSceneMode.Single);
-        
+        private void GoNextLevel() =>
+            levelValidatorScriptableObject.goNextLevelEvent?.Invoke();
     }
 }
