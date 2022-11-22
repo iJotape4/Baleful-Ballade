@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 492856601}
   - component: {fileID: 492856602}
-  - component: {fileID: 492856603}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -171,41 +170,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1570414248
-      Data2: 1132196290
-      Data3: 2025623459
-      Data4: -1002236956
-    Path: event:/Puzzle_3/Puzzle_3
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!114 &492856603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492856599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -467115556
-      Data2: 1230103258
-      Data3: -39569990
-      Data4: 723432944
-    Path: event:/UI/Okay
+      Data1: -1142508302
+      Data2: 1157437598
+      Data3: -449266261
+      Data4: 1421877337
+    Path: event:/Musica/Menu
   Event: 
   PlayEvent: 1
   StopEvent: 2
