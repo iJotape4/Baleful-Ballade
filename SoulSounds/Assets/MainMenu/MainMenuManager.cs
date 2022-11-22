@@ -23,6 +23,9 @@ namespace Mainmenu
         public string fullText;
         public string currentText = "";
 
+        [SerializeField] GameObject music;
+        protected EventInstance introSound;
+
         public enum SceneNames
         {
             MainMenu, Credits, Dungeon
@@ -31,6 +34,7 @@ namespace Mainmenu
         public void Awake()
         {
             buttonSond =FMODUnity.RuntimeManager.CreateInstance("event:/SFX/UI/Botones");
+            introSound = FMODUnity.RuntimeManager.CreateInstance("event:/Musica/TextoIntro");
             settingsPanel.SetActive(false);
         }       
         
@@ -39,6 +43,7 @@ namespace Mainmenu
         {
             buttonSond.start();
             enableFade=true;
+           
         }       
         
 
@@ -77,6 +82,9 @@ namespace Mainmenu
 
         public IEnumerator History()
         {
+            Destroy(music);
+            introSound.start();
+
             startedCoroutine = true;
             textPopUp.enabled=true;
             for (int i = 0; i < fullText.Length; i++)
