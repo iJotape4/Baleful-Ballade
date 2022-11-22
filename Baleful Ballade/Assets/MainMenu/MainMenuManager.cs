@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,7 +7,7 @@ namespace Mainmenu
     public class MainMenuManager : MonoBehaviour
 {
         [SerializeField] GameObject settingsPanel;
-
+         protected EventInstance buttonSond = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/UI/Botones");
 
         public enum SceneNames
         {
@@ -17,20 +18,32 @@ namespace Mainmenu
             settingsPanel.SetActive(false);
         
 
-        public void PlayGame()=>       
-           SceneManager.LoadScene($"Level{LevelManager.CurrentLevel}", LoadSceneMode.Single);
+        public void PlayGame()
+        {
+            buttonSond.start();
+            SceneManager.LoadScene($"Level{LevelManager.CurrentLevel}", LoadSceneMode.Single);
+        }       
         
 
-        public void Options()=>
-        
+        public void Options()
+        {
+            buttonSond.start();
             settingsPanel.SetActive(settingsPanel.activeSelf ? false : true);
+        }
+        
         
 
-        public void Credits()=>       
+        public void Credits()
+        {
+            buttonSond.start();
             SceneManager.LoadSceneAsync(((int)SceneNames.Credits), LoadSceneMode.Single);
+        }      
         
-        public void Quit()=>    
+        public void Quit()
+        {
+            buttonSond.start();
             Application.Quit();
+        }   
         
     }
 }

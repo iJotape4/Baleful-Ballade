@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,7 +35,11 @@ namespace Interactables
         }
 
         // Called By X button on UI message
-        public void DestroyLetter()=>
+        public void DestroyLetter()
+        {
+            EventInstance buttonSond = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/UI/Botones");
+            buttonSond.start();
             gameObject.SetActive(false);
+        }
     }
 }
