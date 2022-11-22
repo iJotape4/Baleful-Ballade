@@ -264,6 +264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1892666858290112346, guid: c6c03140a2e1b084ab7473a4bfab1fda, type: 3}
+      propertyPath: eventSoundPath
+      value: event:/Carta
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6c03140a2e1b084ab7473a4bfab1fda, type: 3}
 --- !u!224 &182537463 stripped
@@ -1914,7 +1918,7 @@ GameObject:
   - component: {fileID: 1550117109}
   - component: {fileID: 1550117108}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: BackgroundMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1935,13 +1939,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 244734012
-      Data2: 1314481757
-      Data3: 1753108644
-      Data4: 866047750
-    Path: event:/Puzzles/Puzzle1
+      Data1: 1974082495
+      Data2: 1155732674
+      Data3: -1958035285
+      Data4: -558282805
+    Path: event:/Musica/Ambientes/Ambiente1
   Event: 
-  PlayEvent: 0
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
