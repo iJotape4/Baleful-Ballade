@@ -44,9 +44,7 @@ namespace Interactables
             doorSoundOpening.start();
             activeInteraction = true;
             AddOutlineEvents();
-;            GetComponent<Animator>().SetTrigger(animTriggerOpenDoor);
-            Debug.Log("Level Complete");
-            //Animation 
+            GetComponent<Animator>().SetTrigger(animTriggerOpenDoor);
         }
 
         private void GoNextLevel() =>

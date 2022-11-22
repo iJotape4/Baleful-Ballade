@@ -3,6 +3,7 @@ using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Interactables
 {
@@ -39,6 +40,12 @@ namespace Interactables
             instance.start();
         }
 
+        private void Update()
+        {
+            if (SceneManager.GetActiveScene().name == "Credits" && instance.isValid())           
+                instance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            
+        }
 
 
 
