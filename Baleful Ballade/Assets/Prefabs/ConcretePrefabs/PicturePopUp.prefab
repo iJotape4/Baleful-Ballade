@@ -112,8 +112,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500.1, y: 115.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 325.0132, y: -170.5}
+  m_SizeDelta: {x: 161.5455, y: 16.8198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7311262331354634817
 CanvasRenderer:
@@ -136,14 +136,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.16862746}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 4060c72679fe03742917de8eddadcbfc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -248,8 +248,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 400}
+  m_AnchoredPosition: {x: 191.81628, y: 53.12419}
+  m_SizeDelta: {x: 754.5815, y: 359.7514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7311262331901714040
 CanvasRenderer:
@@ -273,13 +273,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a12155a958c6c9145832c9c693abda35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa205a29bba1c3d4d9111a4b0cc19b16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -369,8 +369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354, y: 0}
-  m_SizeDelta: {x: 300, y: 250}
+  m_AnchoredPosition: {x: -23.5142, y: -214.36325}
+  m_SizeDelta: {x: 715.3966, y: 92.1773}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7311262332386849273
 CanvasRenderer:
@@ -499,8 +499,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.386, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.915392, y: -5.0038}
-  m_SizeDelta: {x: 229.8307, y: 184.6075}
+  m_AnchoredPosition: {x: 39.854397, y: -9.5}
+  m_SizeDelta: {x: 543.0183, y: 83.6669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7311262333322868281
 CanvasRenderer:
@@ -530,10 +530,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Placeholder Message
+  m_text: "Contemplando el cuadro recuerdas la historia del flautista y te das cuenta
+    que los ni\xF1os raptados son las almas que te visitan desde hace a\xF1os y que
+    ahora te han invitado a entrar a la casona, para que los ayudes a encontrar su
+    descanso."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bcd9baadb09b88146a7446f0ff7fec4e, type: 2}
+  m_sharedMaterial: {fileID: -7383397409065578047, guid: bcd9baadb09b88146a7446f0ff7fec4e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -557,14 +560,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
