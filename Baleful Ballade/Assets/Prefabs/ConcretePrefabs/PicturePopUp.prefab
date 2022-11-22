@@ -460,10 +460,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5ba166ce8e7024aaa4e32fa2c37023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelValidatorScriptableObject: {fileID: 0}
+  levelValidatorScriptableObject: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
   popUpGO: {fileID: 7311262331901714044}
   textPopUp: {fileID: 7311262332386849278}
   button: {fileID: 7311262331354634821}
+  delay: 0.05
+  fullText: "Contemplando el cuadro recuerdas la historia del flautista y te das
+    cuenta que los ni\xF1os raptados son las almas que te visitan desde hace a\xF1os
+    y que ahora te han invitado a entrar a la casona, para que los ayudes a encontrar
+    su descanso."
+  currentText: 
 --- !u!1 &7311262333322868286
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,10 +536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Contemplando el cuadro recuerdas la historia del flautista y te das cuenta
-    que los ni\xF1os raptados son las almas que te visitan desde hace a\xF1os y que
-    ahora te han invitado a entrar a la casona, para que los ayudes a encontrar su
-    descanso."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bcd9baadb09b88146a7446f0ff7fec4e, type: 2}
   m_sharedMaterial: {fileID: -7383397409065578047, guid: bcd9baadb09b88146a7446f0ff7fec4e, type: 2}

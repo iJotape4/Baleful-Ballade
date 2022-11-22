@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 namespace Interactables
@@ -9,6 +10,9 @@ namespace Interactables
         [SerializeField] GameObject popUpGO;
         [SerializeField] GameObject textPopUp;
         [SerializeField] GameObject button;
+        [SerializeField] float delay;
+        public string fullText;
+        public string currentText ="";
 
         private void Start()
         {
@@ -35,8 +39,12 @@ namespace Interactables
             SwitchPictureVisibility(true);
             yield return new WaitForSeconds(7f);
             textPopUp.SetActive(true);
-
-            yield return new WaitForSeconds(7f);
+            for(int i=0; i < fullText.Length; i++)
+            {
+                currentText = fullText.Substring(0, i);
+                textPopUp.GetComponentInChildren<TextMeshProUGUI>().text = currentText;
+                yield return new WaitForSeconds(delay);
+            }
             button.SetActive(true);
 
             yield return null;
