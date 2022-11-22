@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace Interactables
@@ -10,7 +11,17 @@ namespace Interactables
         {
             base.Start();
             AddOutlineEvents();
-            EnableFlashAnimation();
+            StartCoroutine(Flashes());
+        }
+
+        IEnumerator Flashes()
+        {
+            while (gameObject)
+            {
+                yield return new WaitForSeconds(40f);
+                EnableFlashAnimation();
+            }
+            yield return null;
         }
     }
 }
