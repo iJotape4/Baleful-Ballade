@@ -1,6 +1,9 @@
 using FMOD.Studio;
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Mainmenu
 {
@@ -8,6 +11,17 @@ namespace Mainmenu
 {
         [SerializeField] GameObject settingsPanel;
          protected EventInstance buttonSond = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/UI/Botones");
+
+        [SerializeField] Image fade;
+        private float alpha = 0f;
+        [SerializeField] float fadeVelocity = 0.3f;
+        [SerializeField] bool enableFade;
+        [SerializeField] bool startedCoroutine;
+        
+        [SerializeField] TextMeshProUGUI textPopUp;
+        [SerializeField] float delay;
+        public string fullText;
+        public string currentText = "";
 
         public enum SceneNames
         {
@@ -21,7 +35,7 @@ namespace Mainmenu
         public void PlayGame()
         {
             buttonSond.start();
-            SceneManager.LoadScene($"Level{LevelManager.CurrentLevel}", LoadSceneMode.Single);
+            enableFade=true;
         }       
         
 
@@ -29,8 +43,7 @@ namespace Mainmenu
         {
             buttonSond.start();
             settingsPanel.SetActive(settingsPanel.activeSelf ? false : true);
-        }
-        
+        }       
         
 
         public void Credits()
@@ -43,7 +56,35 @@ namespace Mainmenu
         {
             buttonSond.start();
             Application.Quit();
-        }   
-        
+        }
+
+
+        private void Update()
+        {
+            if (!enableFade  || startedCoroutine)
+                return;
+
+            fade.color = new Color(0, 0, 0, alpha);
+            alpha += fadeVelocity * Time.deltaTime;
+
+            if (fade.color.a >= 1)
+                StartCoroutine(History());
+
+        }
+
+        public IEnumerator History()
+        {
+            startedCoroutine = true;
+            textPopUp.enabled=true;
+            for (int i = 0; i < fullText.Length; i++)
+            {
+                currentText = fullText.Substring(0, i);
+                textPopUp.GetComponentInChildren<TextMeshProUGUI>().text = currentText;
+                yield return new WaitForSeconds(delay);
+            }
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene($"Level{LevelManager.CurrentLevel}", LoadSceneMode.Single);
+        }
+
     }
 }

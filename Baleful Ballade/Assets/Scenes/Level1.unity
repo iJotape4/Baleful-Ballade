@@ -168,6 +168,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
+    - target: {fileID: 1805945931677207855, guid: c6c03140a2e1b084ab7473a4bfab1fda, type: 3}
+      propertyPath: PlayEvent
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805945931677207855, guid: c6c03140a2e1b084ab7473a4bfab1fda, type: 3}
+      propertyPath: StopEvent
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1892666858290112344, guid: c6c03140a2e1b084ab7473a4bfab1fda, type: 3}
       propertyPath: m_Name
       value: Letter (1)
