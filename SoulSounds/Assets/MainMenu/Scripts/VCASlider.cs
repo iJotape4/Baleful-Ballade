@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class VCASlider : MonoBehaviour
 {
-   /* private FMOD.Studio.VCA VcaController;
+    private FMOD.Studio.VCA VcaController;
     public string vcaName;
 
     private const string SoundsPressKey = "SOUNDS";
@@ -22,5 +22,5 @@ public class VCASlider : MonoBehaviour
     {
         VcaController.setVolume(volume);
         PlayerPrefs.SetFloat(SoundsPressKey, volume);
-    }*/
+    }
 }

@@ -446,6 +446,18 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1337613171, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: SFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424777570, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: Master
+      objectReference: {fileID: 0}
+    - target: {fileID: 1502043702, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: Music
+      objectReference: {fileID: 0}
     - target: {fileID: 1764662351, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -466,6 +478,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1603265392143562098, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 492856599}
     - target: {fileID: 1603265392143562099, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -593,6 +609,14 @@ PrefabInstance:
     - target: {fileID: 5502269661648354499, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.9826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213139948282035294, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: SFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598626920299007755, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: Music
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
