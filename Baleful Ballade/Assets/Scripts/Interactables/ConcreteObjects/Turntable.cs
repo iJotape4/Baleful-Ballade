@@ -13,14 +13,15 @@ namespace Interactables
         {
             base.Start();
             AddOutlineEvents();
-            StartCoroutine(HintCounter());
-
 
             if (levelValidatorScriptableObject.associatedLevel == 1 && Application.isPlaying)
             {
                 CallDeactivateInteraction();
                 levelValidatorScriptableObject.letterEvent += CallReactivateInteraction;
+                levelValidatorScriptableObject.letterEvent += CallHintCounter;
             }
+            else
+                StartCoroutine(HintCounter());
         }
 
         public override void Interact()
@@ -28,7 +29,6 @@ namespace Interactables
             interactionSound.start();
             levelValidatorScriptableObject.startPuzzleEvent?.Invoke();
             alreadyTouched = true;
-
         }
 
         public IEnumerator HintCounter() 
@@ -42,6 +42,7 @@ namespace Interactables
         }
         // Update is called once per frame
 
-
+        private void CallHintCounter()=>
+            StartCoroutine(HintCounter());
     }
 }
