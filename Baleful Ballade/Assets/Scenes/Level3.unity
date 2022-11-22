@@ -1027,7 +1027,7 @@ GameObject:
   - component: {fileID: 1550117109}
   - component: {fileID: 1550117108}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: AmbienceMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1048,14 +1048,14 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1926432194
-      Data2: 1175938758
-      Data3: -1593400960
-      Data4: 924744784
-    Path: event:/UI/Cancel
+      Data1: -2111292188
+      Data2: 1288722329
+      Data3: 954646700
+      Data4: 391775029
+    Path: event:/Musica/Ambientes/Ambiente3
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -2062,14 +2062,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214989389}
     m_Modifications:
-    - target: {fileID: 3428405089591912834, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
-      propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3428405089591912834, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
-      propertyPath: levelValidatorScriptableObject
-      value: 
-      objectReference: {fileID: 11400000, guid: 198f7725c0b930f4b84ac72013d6865d, type: 2}
     - target: {fileID: 3428405089591912835, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2100,7 +2092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3428405089591912835, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 75.3088
       objectReference: {fileID: 0}
     - target: {fileID: 3428405089591912835, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2136,7 +2128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3428405089591912835, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -268.9
+      value: -256.55438
       objectReference: {fileID: 0}
     - target: {fileID: 3428405089591912835, guid: 47e65bf541823a0429ddbc8a2c0f7686, type: 3}
       propertyPath: m_AnchoredPosition.y
