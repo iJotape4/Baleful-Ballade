@@ -38,8 +38,8 @@ namespace Interactables
             button.onClick.AddListener(Interact);
 
             outline = GetComponent<Outline>();
-            outline.effectColor = Color.white;
-            outline.effectDistance = new Vector2(1f, 1f);
+            outline.effectColor = Color.yellow;
+            outline.effectDistance = new Vector2(0.3f, 0.3f);
             outline.enabled = false;
 
             eventTrigger = GetComponent<EventTrigger>();
