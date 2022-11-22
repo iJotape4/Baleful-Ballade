@@ -94,6 +94,7 @@ namespace Mainmenu
                 yield return new WaitForSeconds(delay);
             }
             yield return new WaitForSeconds(2f);
+            introSound.stop(STOP_MODE.ALLOWFADEOUT);
             SceneManager.LoadScene($"Level{LevelManager.CurrentLevel}", LoadSceneMode.Single);
         }
 
