@@ -38,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174, y: 126}
-  m_SizeDelta: {x: 650, y: 400}
+  m_AnchoredPosition: {x: -177.4188, y: 116.23204}
+  m_SizeDelta: {x: 756.4707, y: 419.5359}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4383156417043797641
 CanvasRenderer:
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1856842260, guid: e11613d874ab939489487c61e438836f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb3b4100f2a5684498baeb24b0596cfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 270.7, y: 162.7}
+  m_AnchoredPosition: {x: 301.4, y: 138.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4984056286642172975
@@ -183,14 +183,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.16862746}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 4060c72679fe03742917de8eddadcbfc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -393,8 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
-  m_EffectDistance: {x: 1, y: 1}
+  m_EffectColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_EffectDistance: {x: 0.3, y: 0.3}
   m_UseGraphicAlpha: 1
 --- !u!114 &1892666858290112347
 MonoBehaviour:
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf54d6d93ab41741bcf05cbb752a813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventSoundPath: event:/Puzzles/Puzzle1
+  eventSoundPath: event:/Carta
   flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
   flash: {fileID: 0}
   outline: {fileID: 1892666858290112348}
@@ -464,7 +464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.386, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.3437, y: -11.3304}
+  m_AnchoredPosition: {x: 43.3437, y: 25.1}
   m_SizeDelta: {x: 486.4326, y: 288.4817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9116583203286189631
@@ -495,16 +495,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Hola! \xA1Gracias por venir a visitarnos! \xA1Est\xE1bamos esper\xE1ndote
+  m_text: "\xA1Hola! \xA1Gracias por venir a visitarnos! \n\xA1Estabamos esperandote
     desde hace mucho! \nDesde ahora eres nuestro invitado y para que te sientas a
-    gusto te dejamos muchas cosas para que juegues; pero deber\xE1s tocarlas una
-    a la vez, y no cualquiera cada vez. Si no juegas como nosotros queremos o haces
-    trampa, nos vamos a enojar contigo. \nPero si haces lo que te decimos y sigues
-    las reglas, vas a llegar al \xFAltimo piso, donde diremos qui\xE9nes somos, te
-    daremos un regalo y te contaremos algunos secretos m\xE1s.\r"
+    gusto te dejamos muchas cosas para que juegues; pero deberas tocarlas una a la
+    vez, y no cualquiera cada vez.  Si no juegas como nosotros queremos o haces trampa,
+    nos vamos a enojar contigo. \nPero si haces lo que te decimos y sigues las reglas,
+    vas a llegar al ultimo piso, donde diremos quienes somos, te daremos un regalo
+    y te contaremos algunos secretos mas.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7360592f45ff2704cb58ddb45c48e9f5, type: 2}
+  m_sharedMaterial: {fileID: -2902599360613842259, guid: 7360592f45ff2704cb58ddb45c48e9f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -528,8 +528,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23
-  m_fontSizeBase: 23
+  m_fontSize: 37
+  m_fontSizeBase: 37
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
