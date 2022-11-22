@@ -1460,7 +1460,7 @@ PrefabInstance:
       objectReference: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
     - target: {fileID: 183456333712950005, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_1
+      value: event:/SFX/ObjetosMalos/ChirridoMetal
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950005, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: levelValidatorScriptableObject
@@ -1946,7 +1946,7 @@ MonoBehaviour:
     Path: event:/Musica/Ambientes/Ambiente1
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
