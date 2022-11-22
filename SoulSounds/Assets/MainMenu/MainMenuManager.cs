@@ -10,7 +10,7 @@ namespace Mainmenu
     public class MainMenuManager : MonoBehaviour
 {
         [SerializeField] GameObject settingsPanel;
-         protected EventInstance buttonSond = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/UI/Botones");
+        protected EventInstance buttonSond;
 
         [SerializeField] Image fade;
         private float alpha = 0f;
@@ -28,8 +28,11 @@ namespace Mainmenu
             MainMenu, Credits, Dungeon
         }
 
-        public void Awake()=>       
+        public void Awake()
+        {
+            buttonSond =FMODUnity.RuntimeManager.CreateInstance("event:/SFX/UI/Botones");
             settingsPanel.SetActive(false);
+        }       
         
 
         public void PlayGame()

@@ -100,7 +100,10 @@ namespace Interactables
         protected void CallReactivateInteraction() =>
             button.enabled = true;
 
-        protected void EnableFlashAnimation()=>
+        protected void EnableFlashAnimation()
+        {
+            if (flash!=null) 
             flash.GetComponent<Animator>().SetTrigger("Turn");  
+        }
     }
 }
