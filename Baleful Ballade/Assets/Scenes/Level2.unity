@@ -299,11 +299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -799,7 +799,7 @@ PrefabInstance:
       objectReference: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
     - target: {fileID: 4262204949098991197, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_1
+      value: event:/SFX/ObjetosMalos/Risas
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991197, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: levelValidatorScriptableObject
@@ -835,11 +835,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991198, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991198, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991198, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -952,11 +952,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1062,11 +1062,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1240,11 +1240,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1683,7 +1683,7 @@ PrefabInstance:
       objectReference: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
     - target: {fileID: 4262204949098991197, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_1
+      value: event:/SFX/ObjetosMalos/Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991197, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: levelValidatorScriptableObject
@@ -1719,11 +1719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991198, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991198, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4262204949098991198, guid: 482675715ccbb954cbbe91561de543da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2013,11 +2013,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 183456333712950004, guid: 43fd639ed7617a146ba94a79a859af55, type: 3}
       propertyPath: m_LocalPosition.x
