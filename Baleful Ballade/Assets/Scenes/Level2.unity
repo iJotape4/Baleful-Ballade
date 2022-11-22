@@ -2082,7 +2082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_2
+      value: event:/SFX/TransicionNiveles/PasoNivel
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: levelValidatorScriptableObject
@@ -2122,7 +2122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221001, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 66.3283
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221001, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2158,7 +2158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221001, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 165
+      value: 192.93587
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221001, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

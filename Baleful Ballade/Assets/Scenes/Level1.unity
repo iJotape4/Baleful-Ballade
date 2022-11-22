@@ -2440,11 +2440,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: eventSoundPath
-      value: event:/Puzzles/Puzzle3_1
+      value: event:/SFX/TransicionNiveles/PasoNivel
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: doorDisabledEvent
-      value: event:/Puzzles/Puzzle1_1
+      value: event:/SFX/Puertas/Blocked
       objectReference: {fileID: 0}
     - target: {fileID: 488349990793221000, guid: 32b7f695a8785fc42a598cf235e05a8a, type: 3}
       propertyPath: levelValidatorScriptableObject

@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
-  m_EffectDistance: {x: 3, y: 3}
+  m_EffectDistance: {x: 1, y: 1}
   m_UseGraphicAlpha: 1
 --- !u!114 &488349990793220999
 MonoBehaviour:
@@ -165,15 +165,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8494343bc47280a409e4bce848fa39fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventSoundPath: event:/UI/Okay
+  eventSoundPath: event:/SFX/TransicionNiveles/PasoNivel
   flashSprite: {fileID: 3950182597563182928, guid: 3997889d45aa21f43995c8820e0d1235, type: 3}
   flash: {fileID: 0}
   outline: {fileID: 488349990793220998}
   eventTrigger: {fileID: 488349990793220999}
   button: {fileID: 488349990793220995}
   levelValidatorScriptableObject: {fileID: 11400000, guid: 2a09673c647e9ed4b898eb2158f30967, type: 2}
-  doorOpeningEvent: event:/Puzzles/Puzzle3_2
-  doorDisabledEvent: event:/UI/Cancel
+  doorOpeningEvent: event:/SFX/Puertas/Open
+  doorDisabledEvent: event:/SFX/Puertas/Blocked
 --- !u!95 &488349990793220994
 Animator:
   serializedVersion: 4
