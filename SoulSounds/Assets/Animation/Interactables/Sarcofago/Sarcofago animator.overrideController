@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sarcofago animator
+  m_Controller: {fileID: 9100000, guid: 3de9156f55a3a214dba225a90fa4383e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c330d277a32a8e6429619a2a15e5f864, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 93321b54ac2653240bc7f19f9c153828, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e68f98f54d1f7bb4f877c9855c2e2d0c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 010fea6fb30ca3444a3d46a03c64ff30, type: 2}

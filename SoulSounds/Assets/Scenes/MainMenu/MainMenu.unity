@@ -360,30 +360,38 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 55488966, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 55488966, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 55488966, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1502043702, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: Musica_ambientes
       objectReference: {fileID: 0}
     - target: {fileID: 1764662351, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1764662351, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392042790596, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392042790596, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603265392076679717, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392143562098, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
@@ -480,35 +488,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392311592373, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392311592373, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392311592373, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392409984211, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392409984211, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603265392829066988, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603265392829066988, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.13287
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392920692709, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392920692709, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1603265392920692709, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
       propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2408934848654529618, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598626920299007755, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
+      propertyPath: vcaName
+      value: Musica_ambientes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94baa33451abebc40820ebff6d03bb6a, type: 3}
